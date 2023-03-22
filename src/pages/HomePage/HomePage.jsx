@@ -80,8 +80,8 @@ const HomePage = () => {
           alt="벚꽃잎"
         />
         <ProjectInfoButton handleModal={handleModal} />
-        {modal ? <ModalProjectInfo handleModal={handleModal} /> : null}
       </div>
+      {modal ? <ModalProjectInfo handleModal={handleModal} /> : null}
       <div className={style.loginButtonList}>
         <button
           onClick={() => navigate('/signin')}
